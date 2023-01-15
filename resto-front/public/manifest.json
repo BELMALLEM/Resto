@@ -1,0 +1,8 @@
+{
+  "short_name": "Resto",
+  "name": "App For a Buying a Restaurant Dishes",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
