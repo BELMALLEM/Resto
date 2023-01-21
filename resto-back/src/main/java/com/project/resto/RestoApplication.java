@@ -9,7 +9,6 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 
 @EnableAutoConfiguration
 @SpringBootApplication(exclude = {DataSourceAutoConfiguration.class })
-@ImportResource("classpath:config/app-config.xml")
 public class RestoApplication {
 
 	public static void main(String[] args) {
