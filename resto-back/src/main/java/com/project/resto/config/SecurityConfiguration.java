@@ -1,7 +1,6 @@
 package com.project.resto.config;
 
-import com.project.resto.security.jwt.AuthTokenFilter;
-import com.project.resto.service.impl.UserDetailsServiceImpl;
+import com.project.resto.utils.jwt.AuthTokenFilter;
 import com.project.resto.utils.jwt.AuthEntryPointJwt;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
@@ -17,10 +16,6 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.SecurityFilterChain;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
-import org.springframework.web.cors.CorsConfiguration;
-import org.springframework.web.cors.CorsConfigurationSource;
-
-import java.util.Arrays;
 
 @Configuration
 @EnableGlobalMethodSecurity(
