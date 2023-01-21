@@ -1,7 +1,8 @@
-package com.project.resto.service;
+package com.project.resto.service.impl;
 
 import com.project.resto.entity.Dish;
 import com.project.resto.repository.DishRepository;
+import com.project.resto.service.DishService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
