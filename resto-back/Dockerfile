@@ -14,6 +14,7 @@ COPY pom.xml .
 ## Build all the dependencies to go offline
 ## This is a separate step to cache dependencies unless
 ## the pom.xml has changed
+RUN chmod +x mvnw
 RUN ./mvnw dependency:go-offline -B
 
 ## Copy the project source

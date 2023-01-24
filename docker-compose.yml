@@ -4,6 +4,7 @@ version: '3.7'
 services:
     #BackEnd Service
     app-server:
+        image: resto-back
         build:
           dockerfile: Dockerfile
           context: resto-back
@@ -16,6 +17,7 @@ services:
     
     #FrontEnd Service
     app-client:
+      image: resto-front
       build:
           dockerfile: Dockerfile
           context: resto-front
